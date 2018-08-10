@@ -1,0 +1,75 @@
+#masteryChampions .img {
+	display: table;
+	margin: 0 auto;
+	height: 100px;
+	position: relative;
+	margin-bottom: 60px;
+}
+.navbar-profile-icon {
+	border-radius: 50%;
+	height: 40px;
+}
+#masteryChampions .text-center {
+	text-align: center;
+}
+.container {
+	margin-top: 30px;
+}
+.nav-name {
+	font-weight: bold;
+	color: white !important;
+}
+#masteryChampions .mastery_img {
+	position: absolute;
+	height: 160px;
+	top: 12px;
+	transform: translate(-50%);
+}
+#masteryChampions .mastery_champ {
+	position: absolute;
+	height: 82px;
+	top: 23px;
+	transform: translate(-50%);
+}
+
+#inicio .container {
+	margin-top: 300px;
+}
+#inicio form {
+	margin: auto;
+	display: table;
+}
+#inicio #summonerName {
+	width: 500px;
+	border: 1px solid #7b7b7b;
+	padding: 6px 50px;
+	text-align: center;
+}
+#inicio .error {
+	border: 1px solid #ff0000 !important;
+}
+#inicio .white-btn {
+    background-color: #cacaca;
+    padding: 6px 50px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    width: 55%;
+    display: table;
+    margin: 0 auto;
+}
+#perfil .account-icon img {
+	height: 170px;
+	border-radius: 50%;
+}
+#perfil .account-name h1 {
+	font-size: 50px;
+}
+#perfil .account-ranking img {
+	height: 160px;
+	display: table;
+	margin: 0 auto;
+}
+#perfil  .account-ranking span {
+	display: table;
+	margin: 0 auto;
+}

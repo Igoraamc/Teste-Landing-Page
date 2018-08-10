@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teste</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+	<script type="text/javascript" src="JS/services.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<style type="text/css">
+		ul {
+			list-style-type: none;
+			position: relative;
+		}
+		.first-circle {
+			padding-bottom: 20px;
+		}
+		.circle {
+		    width:  10px;
+		    height:  10px;
+		    background-color:  #dadada;
+		    display:  block;
+		    border-radius: 50%;
+		}
+		.line {
+		    height: 24px;
+		    border: 1px dashed #dadada;
+		    top: 50%;
+		    transform: translate(-50%, -50%);
+		    left: 89%;
+		    position:  absolute;
+		}
+		.travel {
+		    font-size: 11px;
+		    padding-left: 8px;
+		    position:  relative;
+		}
+		.travel div {
+			position: absolute;
+		}
+		.travel div span {
+			position: absolute;
+		    top: 0px;
+		    left: 45px;
+		}
+		.teste {
+			display: table;
+		}
+		.obs {
+		    position: absolute;
+		    margin-left: -16px;
+		    top: 80px;
+		    font-size: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li class="first-circle">
+					<bdi class="circle"></bdi>
+				</li>
+				<span class="line"></span>
+				<li>
+					<bdi class="circle"></bdi>
+				</li>
+			</ul>
+			<div class="travel">
+				<div style="top: -3px">Origem: <span>GRU</span></div>
+				<div style="top: 27px">Destino: <span>SAO</span></div>
+			</div>
+			<div class="teste">
+				<span class="obs">Teste para texto de ida e volta.</span>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
